@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-weight: 400;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-size: 1.6rem;
+    scroll-behavior: smooth;
+  }
+
+body{
+  
+    background-image: url("image2.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* width: 60%; */
+    width: 50rem;
+    /* height: 250px; */
+    height: 25rem;
+    background-color: #ffff;
+    border-radius: 3rem;
+    /* box-shadow: 0 0 3px; */
+    box-shadow: 0 0 0.3rem;
+}
+
+#timer{
+    width: 100%;
+    /* font-size: 72px; */
+    font-size: 7.2rem;
+    text-align: center;
+    margin: 0px auto;
+    /* padding: 35px; */
+    padding: 3.5rem;
+
+}
+.buttons{
+    text-align: center;
+}
+button{
+    /* margin: 0 10px; */
+    margin: 0 1rem;
+    border: none;
+}
+button i{
+    font-size: 2rem;
+    /* padding: 10px; */
+    padding: 1rem;
+    color: #ffff;
+    /* width: 50px; */
+    width: 5rem;
+}
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#resetBtn{
+    background-color: red;
+}
+
+/* MEDIA QUERIES  */
+
+@media (max-width:550px) {
+    html{
+           font-size: 45%;
+       }
+   }
+
+@media (max-width:385px) {
+    html{
+           font-size: 45%;
+       }
+    .container{
+        margin: 2rem;
+
+    }
+   }
+
+@media (max-width:293px) {
+    html{
+           font-size: 35%;
+       }
+    .container{
+        margin: 2rem;
+        
+    }
+}
+
+@media (max-width:253px) {
+    html{
+           font-size: 35%;
+       }
+    .container{
+        margin: 2rem;
+        
+    }
+}
+
+@media ( max-width:229px) {
+    html{
+           font-size: 30%;
+       }
+    .container{
+        margin: 2rem;
+        
+    }
+}
+
+@media (max-width:201px) {
+    html{
+           font-size: 25%;
+       }
+    .container{
+        margin: 2rem;
+        
+    }
+}
+
+@media (max-width:196px) {
+    html{
+           font-size: 25%;
+       }
+    .container{
+        margin: 2rem;
+        
+    }
+}
